@@ -31,4 +31,8 @@
 
 ​    cloud-config-center-3344配置中心服务端，可以实现git、本地项目读取配置文件。（cloud-provider-payment8001读取本地、cloud-config-client-3355读取git）
 
-​    cloud-config-client-3355使用配置中心服务
+​    cloud-config-client-3355使用配置中心服务，结合3344可以实现bus消息总线，通过rabbitMQ，动态刷新配置文件
+
+​    --以下是Sleuth链路跟踪--
+​    https://repo1.maven.org/maven2/io/zipkin/zipkin-server/是zipkin下载地址，在cloud-consumer-order80服务和cloud-provider-payment8001服务演示
+    

@@ -21,9 +21,11 @@
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-config-client-3366" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-config-client-3366" target="1.8" />
       <module name="cloud-zuul-gateway9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>

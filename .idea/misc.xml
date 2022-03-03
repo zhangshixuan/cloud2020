@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-config-client-3366/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zuul-gateway9527/pom.xml" />
       </set>
     </option>
