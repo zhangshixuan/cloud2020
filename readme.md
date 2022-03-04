@@ -35,4 +35,11 @@
 
 ​    --以下是Sleuth链路跟踪--
 ​    https://repo1.maven.org/maven2/io/zipkin/zipkin-server/是zipkin下载地址，在cloud-consumer-order80服务和cloud-provider-payment8001服务演示
-    
+
+​    --以下是nacos注册中心--
+​    cloudalibaba-consumer-nacos-order83
+​    cloudalibaba-provider-payment9001
+​    cloudalibaba-provider-payment9002
+
+​    --以下是nacos配置中心--
+​    cloudalibaba-config-nacos-client3377
